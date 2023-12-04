@@ -31,7 +31,7 @@
     
     <agent 
       img="locked.png" x="415" y="100" width="75" 
-      height="125" drop-zone="chestopen">
+      height="125" drop-zone="d">
     	
       <chestopen y="-200" />
     </agent>
