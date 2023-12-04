@@ -21,7 +21,8 @@
     <agent img="Idle (1).png" x="120" y="90" width="80" height="100" />
     
   	<agent 
-      img="open.png" x="415" y="100" width="75" height="125">
+      img="open.png" x="415" y="100" width="75" height="125"
+        on-touch="_NEXT_PAGE" >
       <after-dooropen y="100" /> 
     </agent> 
     
