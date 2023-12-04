@@ -6,9 +6,9 @@
     <agent 
       text="texto antes de abrir a porta" 
       x="20" y="430" font-size="18" color="white" 
-      width="300" on-trigger="after-dooropen">
+      width="300" on-trigger="after-chestopen">
       
-    	<after-dooropen text="texto depois de abrir a porta" />
+    	<after-chestopen text="texto depois de abrir a porta" />
     </agent>
       
     <agent img="1.png" x="0" y="0" width="100" height="100" />
@@ -26,7 +26,7 @@
       img="open.png" x="415" y="100" width="75" height="125" 
       draggable="true" on-drop="lived" on-zone="theend">
     
-      <after-dooropen y="100" /> 
+      <after-chestopen y="100" /> 
     </agent> 
     
     <agent 
