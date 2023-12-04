@@ -33,15 +33,15 @@
       img="locked.png" x="415" y="100" width="75" 
       height="125" drop-zone="d">
     	
-      <dooropen y="-200" />
+      <chestopen y="-200" />
     </agent>
     
     <agent 
       img="key.png" x="20" y="150" width="40" height="35" 
-      draggable="true" on-drop="dooropen" on-zone="after-dooropen" 
-      on-trigger="after-dooropen">
+      draggable="true" on-drop="chestopen" on-zone="after-chestopen" 
+      on-trigger="after-chestopen">
     	
-      <after-dooropen y="-200" />
+      <after-chestopen y="-200" />
     </agent>   
     
     <agent img="IceBox.png" x="10" y="150" width="50" height="50" draggable="true" />
