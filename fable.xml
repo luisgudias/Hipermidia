@@ -47,4 +47,8 @@
     <agent img="IceBox.png" x="10" y="150" width="50" height="50" draggable="true" />
     
   </page>
+
+    <page background="noite.png">
+
+    </page>
 </fable>
