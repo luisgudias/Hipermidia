@@ -23,7 +23,7 @@
   	<agent 
       img="open.png" x="415" y="100" width="75" height="125"
         on-touch="_NEXT_PAGE" >
-      <after-dooropen y="100" /> 
+      <after-dooropen y="100" />
     </agent> 
     
     <agent 
