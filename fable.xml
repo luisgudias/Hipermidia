@@ -1,6 +1,5 @@
 <fable>
-    
-    
+
 	<page background="noite_dark.png">
 
     <agent 
@@ -23,9 +22,7 @@
     <agent img="Idle (1).png" x="120" y="90" width="80" height="100" />
     
   	<agent 
-      img="open.png" x="415" y="100" width="75" height="125" 
-      draggable="true" on-drop="lived" on-zone="theend">
-    
+      img="open.png" x="415" y="100" width="75" height="125">
       <after-dooropen y="100" /> 
     </agent> 
     
